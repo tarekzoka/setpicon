@@ -1,6 +1,6 @@
 #!/bin/bash
 ######################################################################################
-## Command=wget https://raw.githubusercontent.com/tarekzoka/setpicon/refs/heads/main/setpicon/installer.sh -O - | /bin/sh
+## Command=wget https://raw.githubusercontent.com/tarekzoka/setpicon/main/installer.sh -O - | /bin/sh
 ##
 ###########################################
 ###########################################
@@ -8,7 +8,7 @@
 # My config script #
 MY_IPK_PY2="enigma2-plugin-extensions-setpicon_v2.0_all.ipk"
 MY_IPK_PY3="enigma2-plugin-extensions-setpicon_v3.0_all.ipk"
-MY_URL="https://raw.githubusercontent.com/tarekzoka/setpicon/refs/heads/main/setpicon"
+MY_URL="https://raw.githubusercontent.com/tarekzoka/setpicon/main/"
 PYTHON_VERSION=$(python -c 'import sys; print(sys.version_info[0])')
 
 ######################################################################################
